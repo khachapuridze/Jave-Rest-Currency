@@ -22,7 +22,7 @@ public class CurrencyController {
     }
 
     @POST
-    @Path("currency/buy")
+    @Path("/currency/buy")
     @Produces(MediaType.APPLICATION_JSON) // აბრუნებს ჯეისონს
     @Consumes(MediaType.APPLICATION_JSON) // იღებს ჯეისონს
     public void addCurrency(Currency currency) {
